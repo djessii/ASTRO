@@ -65,7 +65,7 @@ a {
 /* Estilo para o rodapé da página */
 footer {
     background-color: #333;
-    color: white;
+    color: rgb(233, 196, 196);
     text-align: center;
     padding: 10px;
     position: absolute;
