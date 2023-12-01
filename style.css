@@ -14,7 +14,7 @@ body {
 /* Estilo para o cabeçalho da página */
 header {
     background-image: linear-gradient(135deg, #eea640 0, #f59c40 7.14%, #fa9141 14.29%, #ff8444 21.43%, #ff7547 28.57%, #ff644c 35.71%, #ff5052 42.86%, #ff3858 50%, #fb1160 57.14%, #f50069 64.29%, #ed0075 71.43%, #e40082 78.57%, #d80090 85.71%, #ca009e 92.86%, #b900ae 100%);
-    color: rgb(0, 0, 0);
+    
     text-align: center;
     padding: 20px;
     position: fixed;
@@ -102,4 +102,7 @@ p{
 
 h1{
     color: #4e42d4;
+}
+.nome{
+    color: floralwhite;
 }
