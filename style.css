@@ -106,3 +106,7 @@ h1{
 .nome{
     color: #fff;
 }
+
+.logo{
+    max-width: 20px;
+}
