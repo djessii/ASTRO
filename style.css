@@ -8,6 +8,7 @@
 /* Estilo padrão do corpo da página */
 body {
     font-family: Arial, sans-serif;
+
 }
 
 /* Estilo para o cabeçalho da página */
@@ -94,4 +95,11 @@ footer {
     margin-right: auto;
 
 
+}
+p{
+    color: #4e42d4;
+}
+
+h1{
+    color: #4e42d4;
 }
