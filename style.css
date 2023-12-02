@@ -126,13 +126,13 @@ h1{
 }
 
 .map-container {
-    width: 40%;
+    width: 80%;
     margin: 0 auto;
     border: 2px solid #a41313; /* Cor e espessura da borda */
 }
 
 .map-container iframe {
-    width: 100%;
+    width: 50%;
     height: 450px; /* Altura desejada */
     border: none; /* Remover a borda padrão do iframe */
 }
