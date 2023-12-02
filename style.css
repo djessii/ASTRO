@@ -132,6 +132,7 @@ h1{
     align-items: center;
     text-align: center;
     margin-top: 15px; /* Adiciona espaço acima da div cartao */
+    border: 2px solid #a41313; /* Cor e espessura da borda */
 }
 
 .oferta {
