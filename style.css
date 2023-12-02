@@ -124,3 +124,15 @@ h1{
 .fim{
     color: #fff;
 }
+
+.map-container {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid #a41313; /* Cor e espessura da borda */
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 450px; /* Altura desejada */
+    border: none; /* Remover a borda padrão do iframe */
+}
