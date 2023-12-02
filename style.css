@@ -145,15 +145,25 @@ h1{
 
 
 
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.mainzao {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
 .grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    width: 400px;
 }
 
 .produtoss {
-    width: 45%; /* Reduzi um pouco para dar mais espaço */
+    width: 48%; /* Ajuste a largura conforme necessário */
     margin-bottom: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -167,7 +177,7 @@ h1{
 .ofertass {
     width: 100%;
     height: auto;
-    max-width: 100%; /* Garante que a largura não ultrapasse o contêiner pai */
+    max-width: 100%;
 }
 
 .detalhes-produto {
@@ -195,11 +205,4 @@ h1{
 
 .btn-comprar:hover {
     background-color: #45a049;
-}
-
-.mainzao{
-   width: 100%;
-    box-sizing: border-box; /* Para incluir a largura do padding e da borda na largura total */
-    padding: 20px; /* Adicione um preenchimento, se necessário */
-    
 }
