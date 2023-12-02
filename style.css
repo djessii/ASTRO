@@ -196,3 +196,10 @@ h1{
 .btn-comprar:hover {
     background-color: #45a049;
 }
+
+.mainzao{
+   width: 100%;
+    box-sizing: border-box; /* Para incluir a largura do padding e da borda na largura total */
+    padding: 20px; /* Adicione um preenchimento, se necessário */
+    
+}
