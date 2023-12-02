@@ -148,11 +148,11 @@ h1{
 .grid {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .produtoss {
-    width: 96%; /* Aumentei um pouco para dar mais espaço */
+    width: 45%; /* Reduzi um pouco para dar mais espaço */
     margin-bottom: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -164,8 +164,8 @@ h1{
 }
 
 .ofertass {
-    width: 800px;
-    height: 50%;
+    width: 100%;
+    height: auto;
     max-width: 100%; /* Garante que a largura não ultrapasse o contêiner pai */
 }
 
@@ -195,5 +195,3 @@ h1{
 .btn-comprar:hover {
     background-color: #45a049;
 }
-
-
