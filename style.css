@@ -165,7 +165,7 @@ h1{
 
 .ofertass {
     width: 100%;
-    height: auto;
+    height: 200%;
     max-width: 100%; /* Garante que a largura não ultrapasse o contêiner pai */
 }
 
