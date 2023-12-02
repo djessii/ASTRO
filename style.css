@@ -100,12 +100,13 @@ footer {
 p{
     color: #4e42d4;
     font-family: 'Anton', sans-serif;
-    
+    font-size: 10px;
+}
 
 h1{
     color: #4e42d4;
     font-family: 'Anton', sans-serif;
-    
+    font-size: 12px;
 }
 .nome{
     color: #fff;
