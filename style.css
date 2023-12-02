@@ -152,7 +152,7 @@ h1{
 }
 
 .produtoss {
-    width: 45%; /* Reduzi um pouco para dar mais espaço */
+    width: 96%; /* Aumentei um pouco para dar mais espaço */
     margin-bottom: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
