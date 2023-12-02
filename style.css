@@ -128,12 +128,15 @@ h1{
 
 .cartao {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Exibe os elementos lado a lado */
     align-items: center;
     text-align: center;
+    margin-top: 15px; /* Adiciona espaço acima da div cartao */
 }
 
 .oferta {
     max-width: 300px;
-    margin: 0 auto 15px; /* Adiciona espaço na parte inferior para separar do próximo parágrafo */
+    margin-left: auto;
+    margin-right: auto;
 }
+
