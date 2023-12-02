@@ -78,6 +78,7 @@ footer {
     bottom: 0;
     width: 100%;
     position: fixed;
+    
 }
 
 .tenism {
@@ -112,4 +113,8 @@ h1{
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.fim{
+    color: #fff;
 }
