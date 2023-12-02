@@ -103,12 +103,21 @@ h1{
     color: #fff;
 }
 
-.logo{
-    max-width: 400px;
+.logo {
+    max-width: 100%; /* Garante que a largura máxima seja relativa ao contêiner pai */
+    height: auto; /* Mantém a proporção original da imagem */
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
+
+/* Adicione uma media query para ajustar o tamanho da logo em telas menores */
+@media only screen and (max-width: 600px) {
+    .logo {
+        max-width: 80%; /* Pode ajustar conforme necessário para telas menores */
+    }
+}
+
 
 .fim{
     color: #fff;
