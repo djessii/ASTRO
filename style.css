@@ -126,7 +126,7 @@ h1{
 }
 
 .map-container {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
     border: 2px solid #a41313; /* Cor e espessura da borda */
 }
